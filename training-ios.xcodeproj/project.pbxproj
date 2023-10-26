@@ -14,6 +14,18 @@
 		74200D762ADCF66D0069D796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74200D752ADCF66D0069D796 /* Assets.xcassets */; };
 		74200D792ADCF66D0069D796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74200D772ADCF66D0069D796 /* LaunchScreen.storyboard */; };
 		742E42532ADD4CE100259373 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E42522ADD4CE100259373 /* ViewController2.swift */; };
+		7453EB402AE903F900E1FAB3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7453EB3F2AE903F900E1FAB3 /* FirebaseAuth */; };
+		7453EB422AE903F900E1FAB3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7453EB412AE903F900E1FAB3 /* FirebaseDatabase */; };
+		7453EB442AE903F900E1FAB3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7453EB432AE903F900E1FAB3 /* FirebaseMessaging */; };
+		7453EB462AE903F900E1FAB3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7453EB452AE903F900E1FAB3 /* FirebaseStorage */; };
+		7495CABE2AE6478A00A02704 /* FSPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CABC2AE6478A00A02704 /* FSPagerViewController.swift */; };
+		7495CABF2AE6478A00A02704 /* FSPagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7495CABD2AE6478A00A02704 /* FSPagerViewController.xib */; };
+		7495CAD02AE64E2900A02704 /* PagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CACE2AE64E2900A02704 /* PagerViewCell.swift */; };
+		7495CAD12AE64E2900A02704 /* PagerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7495CACF2AE64E2900A02704 /* PagerViewCell.xib */; };
+		7495CAD82AE6576100A02704 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7495CAD72AE6576100A02704 /* GoogleSignIn */; };
+		7495CAE12AE65A4100A02704 /* LoginSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CADF2AE65A4100A02704 /* LoginSocialViewController.swift */; };
+		7495CAE22AE65A4100A02704 /* LoginSocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7495CAE02AE65A4100A02704 /* LoginSocialViewController.xib */; };
+		7495CAE62AE669C600A02704 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7495CAE52AE669C600A02704 /* GoogleService-Info.plist */; };
 		749698212ADE7A7F002F48EE /* Week2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749698202ADE7A7F002F48EE /* Week2ViewController.swift */; };
 		749698232ADE7D9B002F48EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749698222ADE7D9B002F48EE /* Extensions.swift */; };
 		749698252ADE8E1B002F48EE /* Week2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749698242ADE8E1B002F48EE /* Week2TableViewController.swift */; };
@@ -22,6 +34,13 @@
 		7496983B2ADFCE57002F48EE /* Week2CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496983A2ADFCE57002F48EE /* Week2CollectionViewController.swift */; };
 		7496983E2ADFCF3F002F48EE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496983D2ADFCF3F002F48EE /* CollectionViewCell.swift */; };
 		749698412ADFD8E6002F48EE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749698402ADFD8E5002F48EE /* Movie.swift */; };
+		749698442AE23E42002F48EE /* Week3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749698432AE23E42002F48EE /* Week3ViewController.swift */; };
+		749698462AE23E4C002F48EE /* Week3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749698452AE23E4C002F48EE /* Week3View.swift */; };
+		749698502AE60DD9002F48EE /* Week3XibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496984E2AE60DD9002F48EE /* Week3XibViewController.swift */; };
+		749698512AE60DD9002F48EE /* Week3XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7496984F2AE60DD9002F48EE /* Week3XibViewController.xib */; };
+		74ECBA802AE799E8003A358C /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = 74ECBA7F2AE799E8003A358C /* FacebookBasics */; };
+		74ECBA822AE799E8003A358C /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 74ECBA812AE799E8003A358C /* FacebookCore */; };
+		74ECBA842AE799E8003A358C /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 74ECBA832AE799E8003A358C /* FacebookLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +53,13 @@
 		74200D782ADCF66D0069D796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74200D7A2ADCF66D0069D796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		742E42522ADD4CE100259373 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		7495CABC2AE6478A00A02704 /* FSPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerViewController.swift; sourceTree = "<group>"; };
+		7495CABD2AE6478A00A02704 /* FSPagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPagerViewController.xib; sourceTree = "<group>"; };
+		7495CACE2AE64E2900A02704 /* PagerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewCell.swift; sourceTree = "<group>"; };
+		7495CACF2AE64E2900A02704 /* PagerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PagerViewCell.xib; sourceTree = "<group>"; };
+		7495CADF2AE65A4100A02704 /* LoginSocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSocialViewController.swift; sourceTree = "<group>"; };
+		7495CAE02AE65A4100A02704 /* LoginSocialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginSocialViewController.xib; sourceTree = "<group>"; };
+		7495CAE52AE669C600A02704 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		749698202ADE7A7F002F48EE /* Week2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2ViewController.swift; sourceTree = "<group>"; };
 		749698222ADE7D9B002F48EE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		749698242ADE8E1B002F48EE /* Week2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2TableViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +68,11 @@
 		7496983A2ADFCE57002F48EE /* Week2CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2CollectionViewController.swift; sourceTree = "<group>"; };
 		7496983D2ADFCF3F002F48EE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		749698402ADFD8E5002F48EE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		749698432AE23E42002F48EE /* Week3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3ViewController.swift; sourceTree = "<group>"; };
+		749698452AE23E4C002F48EE /* Week3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3View.swift; sourceTree = "<group>"; };
+		7496984E2AE60DD9002F48EE /* Week3XibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3XibViewController.swift; sourceTree = "<group>"; };
+		7496984F2AE60DD9002F48EE /* Week3XibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Week3XibViewController.xib; sourceTree = "<group>"; };
+		74ECBA852AE79B90003A358C /* training-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "training-ios.entitlements"; sourceTree = "<group>"; };
 		9E8DEBB35BC422A18498E6D3 /* Pods-training-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-training-ios.release.xcconfig"; path = "Target Support Files/Pods-training-ios/Pods-training-ios.release.xcconfig"; sourceTree = "<group>"; };
 		DFB28A6D02BA5CC4D257FF6C /* Pods-training-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-training-ios.debug.xcconfig"; path = "Target Support Files/Pods-training-ios/Pods-training-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +82,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7453EB442AE903F900E1FAB3 /* FirebaseMessaging in Frameworks */,
+				74ECBA842AE799E8003A358C /* FacebookLogin in Frameworks */,
+				7453EB462AE903F900E1FAB3 /* FirebaseStorage in Frameworks */,
+				7453EB402AE903F900E1FAB3 /* FirebaseAuth in Frameworks */,
 				0E4E1DD76378738ABC201635 /* Pods_training_ios.framework in Frameworks */,
+				74ECBA822AE799E8003A358C /* FacebookCore in Frameworks */,
+				74ECBA802AE799E8003A358C /* FacebookBasics in Frameworks */,
+				7453EB422AE903F900E1FAB3 /* FirebaseDatabase in Frameworks */,
+				7495CAD82AE6576100A02704 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,16 +135,47 @@
 		74200D6B2ADCF66C0069D796 /* training-ios */ = {
 			isa = PBXGroup;
 			children = (
+				74ECBA852AE79B90003A358C /* training-ios.entitlements */,
+				749698422AE23E03002F48EE /* Week3 */,
 				7496981F2ADE7A75002F48EE /* Week2 */,
 				7496981D2ADE7A5C002F48EE /* Week1 */,
 				74200D6C2ADCF66C0069D796 /* AppDelegate.swift */,
 				74200D6E2ADCF66C0069D796 /* SceneDelegate.swift */,
 				74200D752ADCF66D0069D796 /* Assets.xcassets */,
 				74200D772ADCF66D0069D796 /* LaunchScreen.storyboard */,
+				7495CAE52AE669C600A02704 /* GoogleService-Info.plist */,
 				74200D7A2ADCF66D0069D796 /* Info.plist */,
 				749698222ADE7D9B002F48EE /* Extensions.swift */,
 			);
 			path = "training-ios";
+			sourceTree = "<group>";
+		};
+		7495CAC02AE64A5700A02704 /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				7495CAC12AE64A6400A02704 /* FSPagerViewCell */,
+				7495CABC2AE6478A00A02704 /* FSPagerViewController.swift */,
+				7495CABD2AE6478A00A02704 /* FSPagerViewController.xib */,
+			);
+			path = FSPagerView;
+			sourceTree = "<group>";
+		};
+		7495CAC12AE64A6400A02704 /* FSPagerViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7495CACE2AE64E2900A02704 /* PagerViewCell.swift */,
+				7495CACF2AE64E2900A02704 /* PagerViewCell.xib */,
+			);
+			path = FSPagerViewCell;
+			sourceTree = "<group>";
+		};
+		7495CADC2AE65A1700A02704 /* LoginSocial */ = {
+			isa = PBXGroup;
+			children = (
+				7495CADF2AE65A4100A02704 /* LoginSocialViewController.swift */,
+				7495CAE02AE65A4100A02704 /* LoginSocialViewController.xib */,
+			);
+			path = LoginSocial;
 			sourceTree = "<group>";
 		};
 		7496981D2ADE7A5C002F48EE /* Week1 */ = {
@@ -155,6 +225,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		749698422AE23E03002F48EE /* Week3 */ = {
+			isa = PBXGroup;
+			children = (
+				7495CADC2AE65A1700A02704 /* LoginSocial */,
+				7495CAC02AE64A5700A02704 /* FSPagerView */,
+				749698432AE23E42002F48EE /* Week3ViewController.swift */,
+				7496984E2AE60DD9002F48EE /* Week3XibViewController.swift */,
+				7496984F2AE60DD9002F48EE /* Week3XibViewController.xib */,
+				749698452AE23E4C002F48EE /* Week3View.swift */,
+			);
+			path = Week3;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,6 +256,16 @@
 			dependencies = (
 			);
 			name = "training-ios";
+			packageProductDependencies = (
+				7495CAD72AE6576100A02704 /* GoogleSignIn */,
+				74ECBA7F2AE799E8003A358C /* FacebookBasics */,
+				74ECBA812AE799E8003A358C /* FacebookCore */,
+				74ECBA832AE799E8003A358C /* FacebookLogin */,
+				7453EB3F2AE903F900E1FAB3 /* FirebaseAuth */,
+				7453EB412AE903F900E1FAB3 /* FirebaseDatabase */,
+				7453EB432AE903F900E1FAB3 /* FirebaseMessaging */,
+				7453EB452AE903F900E1FAB3 /* FirebaseStorage */,
+			);
 			productName = "training-ios";
 			productReference = 74200D692ADCF66C0069D796 /* training-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -201,6 +294,11 @@
 				Base,
 			);
 			mainGroup = 74200D602ADCF66C0069D796;
+			packageReferences = (
+				7495CAD62AE6576000A02704 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				74ECBA7E2AE799E8003A358C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				7453EB3E2AE903F900E1FAB3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 74200D6A2ADCF66C0069D796 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -216,7 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				74200D792ADCF66D0069D796 /* LaunchScreen.storyboard in Resources */,
+				7495CABF2AE6478A00A02704 /* FSPagerViewController.xib in Resources */,
+				7495CAE22AE65A4100A02704 /* LoginSocialViewController.xib in Resources */,
+				749698512AE60DD9002F48EE /* Week3XibViewController.xib in Resources */,
 				74200D762ADCF66D0069D796 /* Assets.xcassets in Resources */,
+				7495CAE62AE669C600A02704 /* GoogleService-Info.plist in Resources */,
+				7495CAD12AE64E2900A02704 /* PagerViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +378,16 @@
 				749698352ADFBDFD002F48EE /* TableViewCell.swift in Sources */,
 				749698232ADE7D9B002F48EE /* Extensions.swift in Sources */,
 				749698252ADE8E1B002F48EE /* Week2TableViewController.swift in Sources */,
+				7495CAD02AE64E2900A02704 /* PagerViewCell.swift in Sources */,
+				749698462AE23E4C002F48EE /* Week3View.swift in Sources */,
+				749698502AE60DD9002F48EE /* Week3XibViewController.swift in Sources */,
 				742E42532ADD4CE100259373 /* ViewController2.swift in Sources */,
 				74200D6D2ADCF66C0069D796 /* AppDelegate.swift in Sources */,
 				74200D6F2ADCF66C0069D796 /* SceneDelegate.swift in Sources */,
+				749698442AE23E42002F48EE /* Week3ViewController.swift in Sources */,
 				749698212ADE7A7F002F48EE /* Week2ViewController.swift in Sources */,
+				7495CABE2AE6478A00A02704 /* FSPagerViewController.swift in Sources */,
+				7495CAE12AE65A4100A02704 /* LoginSocialViewController.swift in Sources */,
 				7496983B2ADFCE57002F48EE /* Week2CollectionViewController.swift in Sources */,
 				7496983E2ADFCF3F002F48EE /* CollectionViewCell.swift in Sources */,
 			);
@@ -418,6 +527,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "training-ios/training-ios.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S952RST7JQ;
@@ -427,7 +538,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,6 +546,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "btq.training-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +559,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "training-ios/training-ios.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S952RST7JQ;
@@ -456,7 +570,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +578,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "btq.training-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,6 +607,76 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7453EB3E2AE903F900E1FAB3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		7495CAD62AE6576000A02704 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		74ECBA7E2AE799E8003A358C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7453EB3F2AE903F900E1FAB3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7453EB3E2AE903F900E1FAB3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7453EB412AE903F900E1FAB3 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7453EB3E2AE903F900E1FAB3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7453EB432AE903F900E1FAB3 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7453EB3E2AE903F900E1FAB3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		7453EB452AE903F900E1FAB3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7453EB3E2AE903F900E1FAB3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		7495CAD72AE6576100A02704 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7495CAD62AE6576000A02704 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		74ECBA7F2AE799E8003A358C /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74ECBA7E2AE799E8003A358C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		74ECBA812AE799E8003A358C /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74ECBA7E2AE799E8003A358C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		74ECBA832AE799E8003A358C /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74ECBA7E2AE799E8003A358C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74200D612ADCF66C0069D796 /* Project object */;
 }

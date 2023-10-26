@@ -17,7 +17,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
 //        let vc = ViewController()
-        let vc = Week2ViewController()
+//        let vc = Week2ViewController()
+//        let vc = Week3ViewController()
+        let vc = Week3XibViewController()
         let nav = UINavigationController(rootViewController: vc)
         window?.rootViewController = nav
         

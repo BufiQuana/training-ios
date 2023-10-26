@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <accessibilityOverrides isEnabled="YES" dynamicTypePreference="3"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginSocialViewController" customModule="training_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="avatarUser" destination="f8H-wE-gpc" id="hGp-gO-mpi"/>
+                <outlet property="helloUser" destination="CSv-dH-ybL" id="aV0-4g-jVH"/>
+                <outlet property="signInGGButton" destination="M5N-Lh-8Q6" id="utq-1j-3hm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5N-Lh-8Q6" customClass="GIDSignInButton">
+                    <rect key="frame" x="16" y="402" width="361" height="48"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="GqS-qu-rhs"/>
+                    </constraints>
+                    <connections>
+                        <action selector="handleGG:" destination="-1" eventType="touchUpInside" id="GaA-Se-zJU"/>
+                    </connections>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSv-dH-ybL">
+                    <rect key="frame" x="16" y="83" width="361" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f8H-wE-gpc">
+                    <rect key="frame" x="176.66666666666666" y="120" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="GNA-go-SWB"/>
+                        <constraint firstAttribute="width" constant="40" id="QTB-n4-asg"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1i8-hC-IHl">
+                    <rect key="frame" x="16" y="466" width="361" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="XnB-Gf-if0"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Facebook"/>
+                    <connections>
+                        <action selector="buttonFB:" destination="-1" eventType="touchUpInside" id="iST-tb-jUg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odp-lx-dRY">
+                    <rect key="frame" x="16" y="530" width="361" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="2wR-od-7UJ"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Log out FB"/>
+                    <connections>
+                        <action selector="handleLogout:" destination="-1" eventType="touchUpInside" id="8Do-Od-C1a"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="CSv-dH-ybL" secondAttribute="trailing" constant="16" id="3VN-eR-vi3"/>
+                <constraint firstItem="CSv-dH-ybL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="3yz-RZ-9aX"/>
+                <constraint firstItem="CSv-dH-ybL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="6Dw-mx-nWy"/>
+                <constraint firstItem="f8H-wE-gpc" firstAttribute="top" secondItem="CSv-dH-ybL" secondAttribute="bottom" constant="16" id="H3x-mm-IJV"/>
+                <constraint firstItem="1i8-hC-IHl" firstAttribute="top" secondItem="M5N-Lh-8Q6" secondAttribute="bottom" constant="16" id="KxA-Gb-oFk"/>
+                <constraint firstItem="Odp-lx-dRY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="MFA-qd-ZUK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="M5N-Lh-8Q6" secondAttribute="trailing" constant="16" id="MNs-RL-VmD"/>
+                <constraint firstItem="M5N-Lh-8Q6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="SZs-Oo-pID"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1i8-hC-IHl" secondAttribute="trailing" constant="16" id="SqH-2Z-aZP"/>
+                <constraint firstItem="f8H-wE-gpc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VJM-wY-RSe"/>
+                <constraint firstItem="M5N-Lh-8Q6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="cyl-dJ-b6m"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Odp-lx-dRY" secondAttribute="trailing" constant="16" id="dxk-tI-Ubt"/>
+                <constraint firstItem="1i8-hC-IHl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="wpP-5K-vfT"/>
+                <constraint firstItem="Odp-lx-dRY" firstAttribute="top" secondItem="1i8-hC-IHl" secondAttribute="bottom" constant="16" id="yv0-6Y-PKQ"/>
+            </constraints>
+            <point key="canvasLocation" x="94" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

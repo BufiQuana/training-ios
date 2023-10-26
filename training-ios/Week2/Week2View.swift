@@ -54,11 +54,11 @@ class Week2View: UIView {
     }
     
     func handleOk(sender: UIAlertAction) {
-        print("Ok")
+        print(sender.title ?? "")
     }
     
     func handleCancel(sender: UIAlertAction) {
-        print("Huỷ")
+        print(sender.title ?? "")
     }
     
     private lazy var imageView: UIImageView = {

@@ -7,4 +7,5 @@ target 'training-ios' do
 
   # Pods for training-ios
   pod 'SnapKit'
+  pod 'FSPagerView'
 end
