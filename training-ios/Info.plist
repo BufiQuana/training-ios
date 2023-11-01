@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>InstagramAppRedirectURL</key>
+	<string>https://training-ios-783f1.firebaseapp.com/__/auth/handler</string>
+	<key>InstagramAppClientId</key>
+	<string>1082856879760122</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -9,17 +13,26 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb549652224010562</string>
-				<string>com.googleusercontent.apps.175731339645-t62m09g1pssqfjn2gdvt1vof04phtpa9</string>
+				<string>fb348608997836323</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>zalo</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>zalo-360549844382804383</string>
 			</array>
 		</dict>
 	</array>
 	<key>FacebookAppID</key>
-	<string>549652224010562</string>
+	<string>348608997836323</string>
 	<key>FacebookClientToken</key>
-	<string>f1b72cf7195ef9d16dd95fba9c781d7b</string>
+	<string>31002702060fbe19b7a12ff1e0b9b136</string>
 	<key>FacebookDisplayName</key>
-	<string>training-ios</string>
+	<string>training-ios-2</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

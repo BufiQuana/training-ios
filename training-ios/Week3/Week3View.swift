@@ -188,13 +188,13 @@ extension Week3View: UIScrollViewDelegate {
         if scrollView.panGestureRecognizer.translation(in: scrollView.superview).y > 0
         {
             self.week3Delegate?.setNavigationBarHidden(false)
-//            self.closure(false)
+            self.closure(false)
 //            NotificationCenter.default.post(name: NSNotification.Name("passData"), object: false)
         }
         else
         {
             self.week3Delegate?.setNavigationBarHidden(true)
-//            self.closure(true)
+            self.closure(true)
 //            NotificationCenter.default.post(name: NSNotification.Name("passData"), object: true)
         }
     }

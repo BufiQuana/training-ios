@@ -1,20 +1,60 @@
 PODS:
+  - FirebaseAppCheck (10.16.0):
+    - FirebaseAppCheckInterop (~> 10.16)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseAppCheckInterop (10.16.0)
+  - FirebaseCore (10.16.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.16.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
   - FSPagerView (0.8.3)
+  - GoogleUtilities/Environment (7.11.5):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.5):
+    - GoogleUtilities/Environment
+  - "GoogleUtilities/NSData+zlib (7.11.5)"
+  - PromisesObjC (2.3.1)
   - SnapKit (5.6.0)
+  - ZaloSDK (4.1.0120):
+    - ZaloSDK/Core (= 4.1.0120)
+    - ZaloSDK/Main (= 4.1.0120)
+  - ZaloSDK/Core (4.1.0120)
+  - ZaloSDK/Main (4.1.0120):
+    - ZaloSDK/Core
 
 DEPENDENCIES:
+  - FirebaseAppCheck
   - FSPagerView
   - SnapKit
+  - ZaloSDK
 
 SPEC REPOS:
   trunk:
+    - FirebaseAppCheck
+    - FirebaseAppCheckInterop
+    - FirebaseCore
+    - FirebaseCoreInternal
     - FSPagerView
+    - GoogleUtilities
+    - PromisesObjC
     - SnapKit
+    - ZaloSDK
 
 SPEC CHECKSUMS:
+  FirebaseAppCheck: f3b56655048e2a24d3b03fd910cbf3e540502c6d
+  FirebaseAppCheckInterop: 82358cff9f33452dd44259e88eea5e562500b1cb
+  FirebaseCore: 65a801af84cca84361ef9eac3fd868656968a53b
+  FirebaseCoreInternal: 26233f705cc4531236818a07ac84d20c333e505a
   FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  GoogleUtilities: 13e2c67ede716b8741c7989e26893d151b2b2084
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  ZaloSDK: 233c5cb5247bd6891f4a7d2d9505f6a2b9aa38c6
 
-PODFILE CHECKSUM: 4371ec71d64c7da94cbacb08e3855af0970e809d
+PODFILE CHECKSUM: 0beb475ad24f8583cfffd6cb2dab090049875d3a
 
 COCOAPODS: 1.13.0

@@ -10,6 +10,8 @@ import FirebaseCore
 import GoogleSignIn
 import FirebaseAuth
 import FacebookCore
+import ZaloSDK
+import FirebaseAppCheck
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         options: [UIApplication.OpenURLOptionsKey : Any] = [:]
     ) -> Bool {
         GIDSignIn.sharedInstance.handle(url)
+        
         return ApplicationDelegate.shared.application(
             app,
             open: url,
@@ -42,8 +45,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("Permission is granted: \(granted)")
             }
         
+        ZaloSDK.sharedInstance().initialize(withAppId: "360549844382804383")
 
-        
         return true
     }
 

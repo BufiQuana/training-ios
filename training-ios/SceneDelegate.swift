@@ -19,7 +19,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        let vc = ViewController()
 //        let vc = Week2ViewController()
 //        let vc = Week3ViewController()
-        let vc = Week3XibViewController()
+//        let vc = Week3XibViewController()
+        let vc = Week4ViewController()
+//        let vc = CreateUserViewController()
+//        let vc = MovieCollectionViewController()
         let nav = UINavigationController(rootViewController: vc)
         window?.rootViewController = nav
         

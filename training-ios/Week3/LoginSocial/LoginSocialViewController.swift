@@ -117,6 +117,7 @@ class LoginSocialViewController: UIViewController {
                 self.avatarUser.image = UIImage(data: data!)
             }
         }
+        
     }
     
     func setupGoogle() {

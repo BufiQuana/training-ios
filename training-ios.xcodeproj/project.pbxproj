@@ -13,11 +13,20 @@
 		74200D712ADCF66C0069D796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74200D702ADCF66C0069D796 /* ViewController.swift */; };
 		74200D762ADCF66D0069D796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74200D752ADCF66D0069D796 /* Assets.xcassets */; };
 		74200D792ADCF66D0069D796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74200D772ADCF66D0069D796 /* LaunchScreen.storyboard */; };
+		7422F43F2AEF93DF0035216B /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7422F43D2AEF93DF0035216B /* CreateUserViewController.swift */; };
+		7422F4402AEF93DF0035216B /* CreateUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7422F43E2AEF93DF0035216B /* CreateUserViewController.xib */; };
 		742E42532ADD4CE100259373 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E42522ADD4CE100259373 /* ViewController2.swift */; };
 		7453EB402AE903F900E1FAB3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7453EB3F2AE903F900E1FAB3 /* FirebaseAuth */; };
 		7453EB422AE903F900E1FAB3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7453EB412AE903F900E1FAB3 /* FirebaseDatabase */; };
 		7453EB442AE903F900E1FAB3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7453EB432AE903F900E1FAB3 /* FirebaseMessaging */; };
 		7453EB462AE903F900E1FAB3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7453EB452AE903F900E1FAB3 /* FirebaseStorage */; };
+		7453EB4C2AEA590500E1FAB3 /* Week4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7453EB4A2AEA590500E1FAB3 /* Week4ViewController.swift */; };
+		7453EB4D2AEA590500E1FAB3 /* Week4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453EB4B2AEA590500E1FAB3 /* Week4ViewController.xib */; };
+		7453EB502AEF408900E1FAB3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7453EB4F2AEF408900E1FAB3 /* Alamofire */; };
+		7453EB5F2AEF540700E1FAB3 /* APIFetchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7453EB5E2AEF540700E1FAB3 /* APIFetchHandler.swift */; };
+		7453EB622AEF542B00E1FAB3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7453EB612AEF542B00E1FAB3 /* Model.swift */; };
+		7453EB6C2AEF839600E1FAB3 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7453EB6A2AEF839600E1FAB3 /* UserTableViewController.swift */; };
+		7453EB6D2AEF839600E1FAB3 /* UserTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453EB6B2AEF839600E1FAB3 /* UserTableViewController.xib */; };
 		7495CABE2AE6478A00A02704 /* FSPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CABC2AE6478A00A02704 /* FSPagerViewController.swift */; };
 		7495CABF2AE6478A00A02704 /* FSPagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7495CABD2AE6478A00A02704 /* FSPagerViewController.xib */; };
 		7495CAD02AE64E2900A02704 /* PagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CACE2AE64E2900A02704 /* PagerViewCell.swift */; };
@@ -38,6 +47,12 @@
 		749698462AE23E4C002F48EE /* Week3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749698452AE23E4C002F48EE /* Week3View.swift */; };
 		749698502AE60DD9002F48EE /* Week3XibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496984E2AE60DD9002F48EE /* Week3XibViewController.swift */; };
 		749698512AE60DD9002F48EE /* Week3XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7496984F2AE60DD9002F48EE /* Week3XibViewController.xib */; };
+		74AF74562AEFA5E90007FAE1 /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AF74542AEFA5E90007FAE1 /* MovieCollectionViewController.swift */; };
+		74AF74572AEFA5E90007FAE1 /* MovieCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74AF74552AEFA5E90007FAE1 /* MovieCollectionViewController.xib */; };
+		74AF745A2AEFA62D0007FAE1 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AF74582AEFA62D0007FAE1 /* MovieCollectionViewCell.swift */; };
+		74AF745B2AEFA62D0007FAE1 /* MovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74AF74592AEFA62D0007FAE1 /* MovieCollectionViewCell.xib */; };
+		74D32A5D2AF0D8A20021294F /* WKBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D32A5C2AF0D8A20021294F /* WKBrowserController.swift */; };
+		74D32A602AF1E9450021294F /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D32A5F2AF1E9450021294F /* Global.swift */; };
 		74ECBA802AE799E8003A358C /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = 74ECBA7F2AE799E8003A358C /* FacebookBasics */; };
 		74ECBA822AE799E8003A358C /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 74ECBA812AE799E8003A358C /* FacebookCore */; };
 		74ECBA842AE799E8003A358C /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 74ECBA832AE799E8003A358C /* FacebookLogin */; };
@@ -52,7 +67,15 @@
 		74200D752ADCF66D0069D796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74200D782ADCF66D0069D796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74200D7A2ADCF66D0069D796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7422F43D2AEF93DF0035216B /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		7422F43E2AEF93DF0035216B /* CreateUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateUserViewController.xib; sourceTree = "<group>"; };
 		742E42522ADD4CE100259373 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		7453EB4A2AEA590500E1FAB3 /* Week4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4ViewController.swift; sourceTree = "<group>"; };
+		7453EB4B2AEA590500E1FAB3 /* Week4ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Week4ViewController.xib; sourceTree = "<group>"; };
+		7453EB5E2AEF540700E1FAB3 /* APIFetchHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetchHandler.swift; sourceTree = "<group>"; };
+		7453EB612AEF542B00E1FAB3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7453EB6A2AEF839600E1FAB3 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		7453EB6B2AEF839600E1FAB3 /* UserTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewController.xib; sourceTree = "<group>"; };
 		7495CABC2AE6478A00A02704 /* FSPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerViewController.swift; sourceTree = "<group>"; };
 		7495CABD2AE6478A00A02704 /* FSPagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSPagerViewController.xib; sourceTree = "<group>"; };
 		7495CACE2AE64E2900A02704 /* PagerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewCell.swift; sourceTree = "<group>"; };
@@ -72,6 +95,12 @@
 		749698452AE23E4C002F48EE /* Week3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3View.swift; sourceTree = "<group>"; };
 		7496984E2AE60DD9002F48EE /* Week3XibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3XibViewController.swift; sourceTree = "<group>"; };
 		7496984F2AE60DD9002F48EE /* Week3XibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Week3XibViewController.xib; sourceTree = "<group>"; };
+		74AF74542AEFA5E90007FAE1 /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
+		74AF74552AEFA5E90007FAE1 /* MovieCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCollectionViewController.xib; sourceTree = "<group>"; };
+		74AF74582AEFA62D0007FAE1 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		74AF74592AEFA62D0007FAE1 /* MovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCollectionViewCell.xib; sourceTree = "<group>"; };
+		74D32A5C2AF0D8A20021294F /* WKBrowserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKBrowserController.swift; sourceTree = "<group>"; };
+		74D32A5F2AF1E9450021294F /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		74ECBA852AE79B90003A358C /* training-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "training-ios.entitlements"; sourceTree = "<group>"; };
 		9E8DEBB35BC422A18498E6D3 /* Pods-training-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-training-ios.release.xcconfig"; path = "Target Support Files/Pods-training-ios/Pods-training-ios.release.xcconfig"; sourceTree = "<group>"; };
 		DFB28A6D02BA5CC4D257FF6C /* Pods-training-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-training-ios.debug.xcconfig"; path = "Target Support Files/Pods-training-ios/Pods-training-ios.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +116,7 @@
 				7453EB462AE903F900E1FAB3 /* FirebaseStorage in Frameworks */,
 				7453EB402AE903F900E1FAB3 /* FirebaseAuth in Frameworks */,
 				0E4E1DD76378738ABC201635 /* Pods_training_ios.framework in Frameworks */,
+				7453EB502AEF408900E1FAB3 /* Alamofire in Frameworks */,
 				74ECBA822AE799E8003A358C /* FacebookCore in Frameworks */,
 				74ECBA802AE799E8003A358C /* FacebookBasics in Frameworks */,
 				7453EB422AE903F900E1FAB3 /* FirebaseDatabase in Frameworks */,
@@ -135,6 +165,9 @@
 		74200D6B2ADCF66C0069D796 /* training-ios */ = {
 			isa = PBXGroup;
 			children = (
+				74D32A5E2AF1E9380021294F /* Global */,
+				7453EB5D2AEF53FA00E1FAB3 /* API */,
+				7453EB492AEA58F300E1FAB3 /* Week4 */,
 				74ECBA852AE79B90003A358C /* training-ios.entitlements */,
 				749698422AE23E03002F48EE /* Week3 */,
 				7496981F2ADE7A75002F48EE /* Week2 */,
@@ -148,6 +181,54 @@
 				749698222ADE7D9B002F48EE /* Extensions.swift */,
 			);
 			path = "training-ios";
+			sourceTree = "<group>";
+		};
+		7422F4382AEF930C0035216B /* CreateUserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7422F43D2AEF93DF0035216B /* CreateUserViewController.swift */,
+				7422F43E2AEF93DF0035216B /* CreateUserViewController.xib */,
+			);
+			path = CreateUserViewController;
+			sourceTree = "<group>";
+		};
+		7453EB492AEA58F300E1FAB3 /* Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				74D32A5B2AF0D8990021294F /* WKBrowserController */,
+				74AF74532AEFA5BF0007FAE1 /* MovieCollectionView */,
+				7422F4382AEF930C0035216B /* CreateUserViewController */,
+				7453EB692AEF836900E1FAB3 /* UserTableViewController */,
+				7453EB4A2AEA590500E1FAB3 /* Week4ViewController.swift */,
+				7453EB4B2AEA590500E1FAB3 /* Week4ViewController.xib */,
+			);
+			path = Week4;
+			sourceTree = "<group>";
+		};
+		7453EB5D2AEF53FA00E1FAB3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7453EB602AEF542300E1FAB3 /* Model */,
+				7453EB5E2AEF540700E1FAB3 /* APIFetchHandler.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7453EB602AEF542300E1FAB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7453EB612AEF542B00E1FAB3 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7453EB692AEF836900E1FAB3 /* UserTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7453EB6A2AEF839600E1FAB3 /* UserTableViewController.swift */,
+				7453EB6B2AEF839600E1FAB3 /* UserTableViewController.xib */,
+			);
+			path = UserTableViewController;
 			sourceTree = "<group>";
 		};
 		7495CAC02AE64A5700A02704 /* FSPagerView */ = {
@@ -238,6 +319,33 @@
 			path = Week3;
 			sourceTree = "<group>";
 		};
+		74AF74532AEFA5BF0007FAE1 /* MovieCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				74AF74542AEFA5E90007FAE1 /* MovieCollectionViewController.swift */,
+				74AF74552AEFA5E90007FAE1 /* MovieCollectionViewController.xib */,
+				74AF74582AEFA62D0007FAE1 /* MovieCollectionViewCell.swift */,
+				74AF74592AEFA62D0007FAE1 /* MovieCollectionViewCell.xib */,
+			);
+			path = MovieCollectionView;
+			sourceTree = "<group>";
+		};
+		74D32A5B2AF0D8990021294F /* WKBrowserController */ = {
+			isa = PBXGroup;
+			children = (
+				74D32A5C2AF0D8A20021294F /* WKBrowserController.swift */,
+			);
+			path = WKBrowserController;
+			sourceTree = "<group>";
+		};
+		74D32A5E2AF1E9380021294F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				74D32A5F2AF1E9450021294F /* Global.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -265,6 +373,7 @@
 				7453EB412AE903F900E1FAB3 /* FirebaseDatabase */,
 				7453EB432AE903F900E1FAB3 /* FirebaseMessaging */,
 				7453EB452AE903F900E1FAB3 /* FirebaseStorage */,
+				7453EB4F2AEF408900E1FAB3 /* Alamofire */,
 			);
 			productName = "training-ios";
 			productReference = 74200D692ADCF66C0069D796 /* training-ios.app */;
@@ -298,6 +407,7 @@
 				7495CAD62AE6576000A02704 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				74ECBA7E2AE799E8003A358C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 				7453EB3E2AE903F900E1FAB3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7453EB4E2AEF408900E1FAB3 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 74200D6A2ADCF66C0069D796 /* Products */;
 			projectDirPath = "";
@@ -319,7 +429,12 @@
 				749698512AE60DD9002F48EE /* Week3XibViewController.xib in Resources */,
 				74200D762ADCF66D0069D796 /* Assets.xcassets in Resources */,
 				7495CAE62AE669C600A02704 /* GoogleService-Info.plist in Resources */,
+				7422F4402AEF93DF0035216B /* CreateUserViewController.xib in Resources */,
 				7495CAD12AE64E2900A02704 /* PagerViewCell.xib in Resources */,
+				7453EB6D2AEF839600E1FAB3 /* UserTableViewController.xib in Resources */,
+				7453EB4D2AEA590500E1FAB3 /* Week4ViewController.xib in Resources */,
+				74AF74572AEFA5E90007FAE1 /* MovieCollectionViewController.xib in Resources */,
+				74AF745B2AEFA62D0007FAE1 /* MovieCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7453EB4C2AEA590500E1FAB3 /* Week4ViewController.swift in Sources */,
 				74200D712ADCF66C0069D796 /* ViewController.swift in Sources */,
 				749698412ADFD8E6002F48EE /* Movie.swift in Sources */,
 				749698372ADFCADF002F48EE /* Week2View.swift in Sources */,
@@ -381,15 +497,23 @@
 				7495CAD02AE64E2900A02704 /* PagerViewCell.swift in Sources */,
 				749698462AE23E4C002F48EE /* Week3View.swift in Sources */,
 				749698502AE60DD9002F48EE /* Week3XibViewController.swift in Sources */,
+				7422F43F2AEF93DF0035216B /* CreateUserViewController.swift in Sources */,
+				7453EB5F2AEF540700E1FAB3 /* APIFetchHandler.swift in Sources */,
 				742E42532ADD4CE100259373 /* ViewController2.swift in Sources */,
 				74200D6D2ADCF66C0069D796 /* AppDelegate.swift in Sources */,
 				74200D6F2ADCF66C0069D796 /* SceneDelegate.swift in Sources */,
+				7453EB622AEF542B00E1FAB3 /* Model.swift in Sources */,
 				749698442AE23E42002F48EE /* Week3ViewController.swift in Sources */,
+				74AF745A2AEFA62D0007FAE1 /* MovieCollectionViewCell.swift in Sources */,
+				74AF74562AEFA5E90007FAE1 /* MovieCollectionViewController.swift in Sources */,
 				749698212ADE7A7F002F48EE /* Week2ViewController.swift in Sources */,
 				7495CABE2AE6478A00A02704 /* FSPagerViewController.swift in Sources */,
 				7495CAE12AE65A4100A02704 /* LoginSocialViewController.swift in Sources */,
 				7496983B2ADFCE57002F48EE /* Week2CollectionViewController.swift in Sources */,
+				74D32A5D2AF0D8A20021294F /* WKBrowserController.swift in Sources */,
+				7453EB6C2AEF839600E1FAB3 /* UserTableViewController.swift in Sources */,
 				7496983E2ADFCF3F002F48EE /* CollectionViewCell.swift in Sources */,
+				74D32A602AF1E9450021294F /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +741,14 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		7453EB4E2AEF408900E1FAB3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		7495CAD62AE6576000A02704 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
@@ -655,6 +787,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7453EB3E2AE903F900E1FAB3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		7453EB4F2AEF408900E1FAB3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7453EB4E2AEF408900E1FAB3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 		7495CAD72AE6576100A02704 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;
