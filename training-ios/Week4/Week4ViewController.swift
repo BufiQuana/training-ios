@@ -52,9 +52,6 @@ class Week4ViewController: UIViewController {
             vc.week4Delegate = self
             vc.webURL = url
             self.present(vc, animated: true)
-//            let safari: SFSafariViewController = SFSafariViewController(url: url)
-//            safari.delegate = self
-//            self.present(safari, animated: true, completion: nil)
         }
     }
     @IBAction func handleLogout(_ sender: Any) {
@@ -62,6 +59,12 @@ class Week4ViewController: UIViewController {
         loginManager.logOut()
         self.userName.text = Profile.current?.name ?? "Anonymous"
         self.avatarUser.image = UIImage(systemName: "person.circle.fill")
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        createCodeVerifier()
     }
     
     func createCodeVerifier() {
@@ -87,12 +90,6 @@ class Week4ViewController: UIViewController {
             .replacingOccurrences(of: "=", with: "")
             .trimmingCharacters(in: .whitespaces)
         return challenge
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        createCodeVerifier()
     }
 }
 

@@ -13,9 +13,10 @@ class WKBrowserController: UIViewController {
     weak var week4Delegate: Week4Delegate?
     
     var webView: WKWebView?
-    var webURL: URL? { didSet {
-        self.navigate()
-    }
+    var webURL: URL? {
+        didSet {
+            self.navigate()
+        }
     }
     
     override func loadView() {
